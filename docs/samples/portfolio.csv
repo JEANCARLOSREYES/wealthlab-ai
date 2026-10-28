@@ -1,0 +1,2 @@
+name,ticker,asset_class,shares,purchase_price,current_price,purchased,valued
+Example broad-market fund,DEMO,US equities,10,100.00,110.00,2026-01-01,2026-10-01

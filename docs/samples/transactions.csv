@@ -1,0 +1,4 @@
+date,merchant,amount,kind,category,note
+2026-10-01,Example employer,2500.00,income,Salary,Sample income
+2026-10-02,Example grocery,-82.45,expense,Groceries,Sample purchase
+2026-10-03,Card payment,-200.00,transfer,Transfer,Do not count twice

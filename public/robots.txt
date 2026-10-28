@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeancarlosreyes.github.io/wealthlab-ai/sitemap.xml

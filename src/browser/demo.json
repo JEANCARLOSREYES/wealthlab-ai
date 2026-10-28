@@ -1,0 +1,2196 @@
+{
+  "version": 1,
+  "revision": 0,
+  "accounts": [
+    {
+      "id": "checking",
+      "name": "Everyday checking",
+      "kind": "checking",
+      "opening_balance": 1360000,
+      "opened": "2026-05-01",
+      "institution": "Demo · checking"
+    },
+    {
+      "id": "savings",
+      "name": "High-yield savings",
+      "kind": "savings",
+      "opening_balance": 1860000,
+      "opened": "2026-05-01",
+      "institution": "Demo · savings"
+    },
+    {
+      "id": "credit",
+      "name": "Everyday credit card",
+      "kind": "credit",
+      "opening_balance": -62000,
+      "opened": "2026-05-01",
+      "institution": "Demo · credit"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "demo-0",
+      "account_id": "checking",
+      "date": "2026-05-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-1",
+      "account_id": "checking",
+      "date": "2026-05-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-2",
+      "account_id": "checking",
+      "date": "2026-05-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-3",
+      "account_id": "checking",
+      "date": "2026-05-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-4",
+      "account_id": "checking",
+      "date": "2026-05-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-5",
+      "account_id": "checking",
+      "date": "2026-05-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-6",
+      "account_id": "checking",
+      "date": "2026-05-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-7",
+      "account_id": "checking",
+      "date": "2026-05-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-8",
+      "account_id": "checking",
+      "date": "2026-05-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-9",
+      "account_id": "checking",
+      "date": "2026-05-03",
+      "merchant": "Whole Foods Market",
+      "amount": -12076,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-10",
+      "account_id": "checking",
+      "date": "2026-05-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -1074,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-11",
+      "account_id": "checking",
+      "date": "2026-05-10",
+      "merchant": "Whole Foods Market",
+      "amount": -14408,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-12",
+      "account_id": "checking",
+      "date": "2026-05-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -960,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-13",
+      "account_id": "checking",
+      "date": "2026-05-17",
+      "merchant": "Whole Foods Market",
+      "amount": -10795,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-14",
+      "account_id": "checking",
+      "date": "2026-05-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -946,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-15",
+      "account_id": "checking",
+      "date": "2026-05-24",
+      "merchant": "Whole Foods Market",
+      "amount": -9231,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-16",
+      "account_id": "checking",
+      "date": "2026-05-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1434,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-17",
+      "account_id": "checking",
+      "date": "2026-05-06",
+      "merchant": "Weekend brunch",
+      "amount": -5284,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-18",
+      "account_id": "checking",
+      "date": "2026-05-13",
+      "merchant": "Weekend brunch",
+      "amount": -5109,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-19",
+      "account_id": "checking",
+      "date": "2026-05-20",
+      "merchant": "Local kitchen",
+      "amount": -2851,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-20",
+      "account_id": "checking",
+      "date": "2026-05-27",
+      "merchant": "Sweetgreen",
+      "amount": -3419,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-21",
+      "account_id": "checking",
+      "date": "2026-05-08",
+      "merchant": "City transit",
+      "amount": -4073,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-22",
+      "account_id": "checking",
+      "date": "2026-05-19",
+      "merchant": "City transit",
+      "amount": -4218,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-23",
+      "account_id": "checking",
+      "date": "2026-05-12",
+      "merchant": "Target",
+      "amount": -18770,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-24",
+      "account_id": "checking",
+      "date": "2026-05-16",
+      "merchant": "Bookshop",
+      "amount": -4354,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-25",
+      "account_id": "checking",
+      "date": "2026-05-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-26",
+      "account_id": "savings",
+      "date": "2026-05-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-27",
+      "account_id": "checking",
+      "date": "2026-05-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-28",
+      "account_id": "credit",
+      "date": "2026-05-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-29",
+      "account_id": "credit",
+      "date": "2026-05-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-30",
+      "account_id": "checking",
+      "date": "2026-06-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-31",
+      "account_id": "checking",
+      "date": "2026-06-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-32",
+      "account_id": "checking",
+      "date": "2026-06-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-33",
+      "account_id": "checking",
+      "date": "2026-06-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-34",
+      "account_id": "checking",
+      "date": "2026-06-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-35",
+      "account_id": "checking",
+      "date": "2026-06-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-36",
+      "account_id": "checking",
+      "date": "2026-06-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-37",
+      "account_id": "checking",
+      "date": "2026-06-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-38",
+      "account_id": "checking",
+      "date": "2026-06-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-39",
+      "account_id": "checking",
+      "date": "2026-06-03",
+      "merchant": "Whole Foods Market",
+      "amount": -14373,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-40",
+      "account_id": "checking",
+      "date": "2026-06-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -975,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-41",
+      "account_id": "checking",
+      "date": "2026-06-10",
+      "merchant": "Whole Foods Market",
+      "amount": -13047,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-42",
+      "account_id": "checking",
+      "date": "2026-06-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -1350,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-43",
+      "account_id": "checking",
+      "date": "2026-06-17",
+      "merchant": "Whole Foods Market",
+      "amount": -13733,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-44",
+      "account_id": "checking",
+      "date": "2026-06-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -1061,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-45",
+      "account_id": "checking",
+      "date": "2026-06-24",
+      "merchant": "Whole Foods Market",
+      "amount": -8926,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-46",
+      "account_id": "checking",
+      "date": "2026-06-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1214,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-47",
+      "account_id": "checking",
+      "date": "2026-06-06",
+      "merchant": "Sweetgreen",
+      "amount": -2972,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-48",
+      "account_id": "checking",
+      "date": "2026-06-13",
+      "merchant": "Sweetgreen",
+      "amount": -3018,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-49",
+      "account_id": "checking",
+      "date": "2026-06-20",
+      "merchant": "Weekend brunch",
+      "amount": -4582,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-50",
+      "account_id": "checking",
+      "date": "2026-06-27",
+      "merchant": "Weekend brunch",
+      "amount": -5209,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-51",
+      "account_id": "checking",
+      "date": "2026-06-08",
+      "merchant": "City transit",
+      "amount": -3360,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-52",
+      "account_id": "checking",
+      "date": "2026-06-19",
+      "merchant": "City transit",
+      "amount": -3855,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-53",
+      "account_id": "checking",
+      "date": "2026-06-12",
+      "merchant": "Target",
+      "amount": -14546,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-54",
+      "account_id": "checking",
+      "date": "2026-06-16",
+      "merchant": "Bookshop",
+      "amount": -4916,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-55",
+      "account_id": "checking",
+      "date": "2026-06-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-56",
+      "account_id": "savings",
+      "date": "2026-06-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-57",
+      "account_id": "checking",
+      "date": "2026-06-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-58",
+      "account_id": "credit",
+      "date": "2026-06-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-59",
+      "account_id": "credit",
+      "date": "2026-06-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-60",
+      "account_id": "checking",
+      "date": "2026-07-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-61",
+      "account_id": "checking",
+      "date": "2026-07-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-62",
+      "account_id": "checking",
+      "date": "2026-07-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-63",
+      "account_id": "checking",
+      "date": "2026-07-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-64",
+      "account_id": "checking",
+      "date": "2026-07-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-65",
+      "account_id": "checking",
+      "date": "2026-07-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-66",
+      "account_id": "checking",
+      "date": "2026-07-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-67",
+      "account_id": "checking",
+      "date": "2026-07-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-68",
+      "account_id": "checking",
+      "date": "2026-07-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-69",
+      "account_id": "checking",
+      "date": "2026-07-03",
+      "merchant": "Whole Foods Market",
+      "amount": -8366,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-70",
+      "account_id": "checking",
+      "date": "2026-07-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -966,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-71",
+      "account_id": "checking",
+      "date": "2026-07-10",
+      "merchant": "Whole Foods Market",
+      "amount": -11156,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-72",
+      "account_id": "checking",
+      "date": "2026-07-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -733,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-73",
+      "account_id": "checking",
+      "date": "2026-07-17",
+      "merchant": "Whole Foods Market",
+      "amount": -11955,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-74",
+      "account_id": "checking",
+      "date": "2026-07-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -1135,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-75",
+      "account_id": "checking",
+      "date": "2026-07-24",
+      "merchant": "Whole Foods Market",
+      "amount": -13044,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-76",
+      "account_id": "checking",
+      "date": "2026-07-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1264,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-77",
+      "account_id": "checking",
+      "date": "2026-07-06",
+      "merchant": "Sweetgreen",
+      "amount": -5195,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-78",
+      "account_id": "checking",
+      "date": "2026-07-13",
+      "merchant": "Local kitchen",
+      "amount": -4472,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-79",
+      "account_id": "checking",
+      "date": "2026-07-20",
+      "merchant": "Local kitchen",
+      "amount": -2473,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-80",
+      "account_id": "checking",
+      "date": "2026-07-27",
+      "merchant": "Local kitchen",
+      "amount": -3924,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-81",
+      "account_id": "checking",
+      "date": "2026-07-08",
+      "merchant": "City transit",
+      "amount": -2711,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-82",
+      "account_id": "checking",
+      "date": "2026-07-19",
+      "merchant": "City transit",
+      "amount": -3952,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-83",
+      "account_id": "checking",
+      "date": "2026-07-12",
+      "merchant": "Target",
+      "amount": -12148,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-84",
+      "account_id": "checking",
+      "date": "2026-07-16",
+      "merchant": "Bookshop",
+      "amount": -4254,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-85",
+      "account_id": "checking",
+      "date": "2026-07-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-86",
+      "account_id": "savings",
+      "date": "2026-07-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-87",
+      "account_id": "checking",
+      "date": "2026-07-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-88",
+      "account_id": "credit",
+      "date": "2026-07-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-89",
+      "account_id": "credit",
+      "date": "2026-07-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-90",
+      "account_id": "checking",
+      "date": "2026-08-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-91",
+      "account_id": "checking",
+      "date": "2026-08-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-92",
+      "account_id": "checking",
+      "date": "2026-08-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-93",
+      "account_id": "checking",
+      "date": "2026-08-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-94",
+      "account_id": "checking",
+      "date": "2026-08-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-95",
+      "account_id": "checking",
+      "date": "2026-08-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-96",
+      "account_id": "checking",
+      "date": "2026-08-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-97",
+      "account_id": "checking",
+      "date": "2026-08-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-98",
+      "account_id": "checking",
+      "date": "2026-08-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-99",
+      "account_id": "checking",
+      "date": "2026-08-03",
+      "merchant": "Whole Foods Market",
+      "amount": -10870,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-100",
+      "account_id": "checking",
+      "date": "2026-08-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -1243,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-101",
+      "account_id": "checking",
+      "date": "2026-08-10",
+      "merchant": "Whole Foods Market",
+      "amount": -14143,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-102",
+      "account_id": "checking",
+      "date": "2026-08-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -655,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-103",
+      "account_id": "checking",
+      "date": "2026-08-17",
+      "merchant": "Whole Foods Market",
+      "amount": -11121,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-104",
+      "account_id": "checking",
+      "date": "2026-08-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -894,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-105",
+      "account_id": "checking",
+      "date": "2026-08-24",
+      "merchant": "Whole Foods Market",
+      "amount": -8759,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-106",
+      "account_id": "checking",
+      "date": "2026-08-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1220,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-107",
+      "account_id": "checking",
+      "date": "2026-08-06",
+      "merchant": "Sweetgreen",
+      "amount": -3418,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-108",
+      "account_id": "checking",
+      "date": "2026-08-13",
+      "merchant": "Weekend brunch",
+      "amount": -3873,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-109",
+      "account_id": "checking",
+      "date": "2026-08-20",
+      "merchant": "Sweetgreen",
+      "amount": -3494,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-110",
+      "account_id": "checking",
+      "date": "2026-08-27",
+      "merchant": "Sweetgreen",
+      "amount": -3528,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-111",
+      "account_id": "checking",
+      "date": "2026-08-08",
+      "merchant": "City transit",
+      "amount": -3289,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-112",
+      "account_id": "checking",
+      "date": "2026-08-19",
+      "merchant": "City transit",
+      "amount": -4683,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-113",
+      "account_id": "checking",
+      "date": "2026-08-12",
+      "merchant": "Target",
+      "amount": -14742,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-114",
+      "account_id": "checking",
+      "date": "2026-08-16",
+      "merchant": "Bookshop",
+      "amount": -3324,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-115",
+      "account_id": "checking",
+      "date": "2026-08-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-116",
+      "account_id": "savings",
+      "date": "2026-08-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-117",
+      "account_id": "checking",
+      "date": "2026-08-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-118",
+      "account_id": "credit",
+      "date": "2026-08-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-119",
+      "account_id": "credit",
+      "date": "2026-08-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-120",
+      "account_id": "checking",
+      "date": "2026-09-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-121",
+      "account_id": "checking",
+      "date": "2026-09-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-122",
+      "account_id": "checking",
+      "date": "2026-09-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-123",
+      "account_id": "checking",
+      "date": "2026-09-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-124",
+      "account_id": "checking",
+      "date": "2026-09-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-125",
+      "account_id": "checking",
+      "date": "2026-09-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-126",
+      "account_id": "checking",
+      "date": "2026-09-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-127",
+      "account_id": "checking",
+      "date": "2026-09-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-128",
+      "account_id": "checking",
+      "date": "2026-09-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-129",
+      "account_id": "checking",
+      "date": "2026-09-03",
+      "merchant": "Whole Foods Market",
+      "amount": -13194,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-130",
+      "account_id": "checking",
+      "date": "2026-09-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -964,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-131",
+      "account_id": "checking",
+      "date": "2026-09-10",
+      "merchant": "Whole Foods Market",
+      "amount": -10649,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-132",
+      "account_id": "checking",
+      "date": "2026-09-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -976,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-133",
+      "account_id": "checking",
+      "date": "2026-09-17",
+      "merchant": "Whole Foods Market",
+      "amount": -9198,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-134",
+      "account_id": "checking",
+      "date": "2026-09-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -990,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-135",
+      "account_id": "checking",
+      "date": "2026-09-24",
+      "merchant": "Whole Foods Market",
+      "amount": -8570,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-136",
+      "account_id": "checking",
+      "date": "2026-09-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1238,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-137",
+      "account_id": "checking",
+      "date": "2026-09-06",
+      "merchant": "Weekend brunch",
+      "amount": -3516,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-138",
+      "account_id": "checking",
+      "date": "2026-09-13",
+      "merchant": "Local kitchen",
+      "amount": -2439,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-139",
+      "account_id": "checking",
+      "date": "2026-09-20",
+      "merchant": "Sweetgreen",
+      "amount": -5485,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-140",
+      "account_id": "checking",
+      "date": "2026-09-27",
+      "merchant": "Local kitchen",
+      "amount": -2478,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-141",
+      "account_id": "checking",
+      "date": "2026-09-08",
+      "merchant": "City transit",
+      "amount": -4413,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-142",
+      "account_id": "checking",
+      "date": "2026-09-19",
+      "merchant": "City transit",
+      "amount": -3616,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-143",
+      "account_id": "checking",
+      "date": "2026-09-12",
+      "merchant": "Target",
+      "amount": -26025,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-144",
+      "account_id": "checking",
+      "date": "2026-09-16",
+      "merchant": "Bookshop",
+      "amount": -4893,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-145",
+      "account_id": "checking",
+      "date": "2026-09-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-146",
+      "account_id": "savings",
+      "date": "2026-09-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-147",
+      "account_id": "checking",
+      "date": "2026-09-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-148",
+      "account_id": "credit",
+      "date": "2026-09-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-149",
+      "account_id": "credit",
+      "date": "2026-09-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-150",
+      "account_id": "checking",
+      "date": "2026-10-01",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-151",
+      "account_id": "checking",
+      "date": "2026-10-15",
+      "merchant": "Northstar Studio · payroll",
+      "amount": 320000,
+      "kind": "income",
+      "category": "Salary",
+      "note": ""
+    },
+    {
+      "id": "demo-152",
+      "account_id": "checking",
+      "date": "2026-10-02",
+      "merchant": "Willow Apartments",
+      "amount": -165000,
+      "kind": "expense",
+      "category": "Housing",
+      "note": ""
+    },
+    {
+      "id": "demo-153",
+      "account_id": "checking",
+      "date": "2026-10-05",
+      "merchant": "Internet service",
+      "amount": -6500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-154",
+      "account_id": "checking",
+      "date": "2026-10-07",
+      "merchant": "Spotify",
+      "amount": -1199,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-155",
+      "account_id": "checking",
+      "date": "2026-10-09",
+      "merchant": "Electric company",
+      "amount": -11200,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-156",
+      "account_id": "checking",
+      "date": "2026-10-11",
+      "merchant": "Gym membership",
+      "amount": -4500,
+      "kind": "expense",
+      "category": "Health",
+      "note": ""
+    },
+    {
+      "id": "demo-157",
+      "account_id": "checking",
+      "date": "2026-10-18",
+      "merchant": "Netflix",
+      "amount": -1549,
+      "kind": "expense",
+      "category": "Subscriptions",
+      "note": ""
+    },
+    {
+      "id": "demo-158",
+      "account_id": "checking",
+      "date": "2026-10-22",
+      "merchant": "Phone plan",
+      "amount": -5500,
+      "kind": "expense",
+      "category": "Utilities",
+      "note": ""
+    },
+    {
+      "id": "demo-159",
+      "account_id": "checking",
+      "date": "2026-10-03",
+      "merchant": "Whole Foods Market",
+      "amount": -8242,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-160",
+      "account_id": "checking",
+      "date": "2026-10-04",
+      "merchant": "Neighborhood coffee",
+      "amount": -1396,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-161",
+      "account_id": "checking",
+      "date": "2026-10-10",
+      "merchant": "Whole Foods Market",
+      "amount": -9424,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-162",
+      "account_id": "checking",
+      "date": "2026-10-11",
+      "merchant": "Neighborhood coffee",
+      "amount": -967,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-163",
+      "account_id": "checking",
+      "date": "2026-10-17",
+      "merchant": "Whole Foods Market",
+      "amount": -9914,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-164",
+      "account_id": "checking",
+      "date": "2026-10-18",
+      "merchant": "Neighborhood coffee",
+      "amount": -726,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-165",
+      "account_id": "checking",
+      "date": "2026-10-24",
+      "merchant": "Whole Foods Market",
+      "amount": -13929,
+      "kind": "expense",
+      "category": "Groceries",
+      "note": ""
+    },
+    {
+      "id": "demo-166",
+      "account_id": "checking",
+      "date": "2026-10-25",
+      "merchant": "Neighborhood coffee",
+      "amount": -1382,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-167",
+      "account_id": "checking",
+      "date": "2026-10-06",
+      "merchant": "Local kitchen",
+      "amount": -2484,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-168",
+      "account_id": "checking",
+      "date": "2026-10-13",
+      "merchant": "Weekend brunch",
+      "amount": -4710,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-169",
+      "account_id": "checking",
+      "date": "2026-10-20",
+      "merchant": "Weekend brunch",
+      "amount": -5209,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-170",
+      "account_id": "checking",
+      "date": "2026-10-27",
+      "merchant": "Sweetgreen",
+      "amount": -4050,
+      "kind": "expense",
+      "category": "Dining",
+      "note": ""
+    },
+    {
+      "id": "demo-171",
+      "account_id": "checking",
+      "date": "2026-10-08",
+      "merchant": "City transit",
+      "amount": -4486,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-172",
+      "account_id": "checking",
+      "date": "2026-10-19",
+      "merchant": "City transit",
+      "amount": -4103,
+      "kind": "expense",
+      "category": "Transport",
+      "note": ""
+    },
+    {
+      "id": "demo-173",
+      "account_id": "checking",
+      "date": "2026-10-12",
+      "merchant": "Target",
+      "amount": -16505,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    },
+    {
+      "id": "demo-174",
+      "account_id": "checking",
+      "date": "2026-10-16",
+      "merchant": "Bookshop",
+      "amount": -3101,
+      "kind": "expense",
+      "category": "Lifestyle",
+      "note": ""
+    },
+    {
+      "id": "demo-175",
+      "account_id": "checking",
+      "date": "2026-10-21",
+      "merchant": "Savings contribution",
+      "amount": -80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-176",
+      "account_id": "savings",
+      "date": "2026-10-21",
+      "merchant": "Savings contribution",
+      "amount": 80000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-177",
+      "account_id": "checking",
+      "date": "2026-10-23",
+      "merchant": "Card payment",
+      "amount": -20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-178",
+      "account_id": "credit",
+      "date": "2026-10-23",
+      "merchant": "Card payment",
+      "amount": 20000,
+      "kind": "transfer",
+      "category": "Transfer",
+      "note": ""
+    },
+    {
+      "id": "demo-179",
+      "account_id": "credit",
+      "date": "2026-10-14",
+      "merchant": "Online shopping",
+      "amount": -18000,
+      "kind": "expense",
+      "category": "Shopping",
+      "note": ""
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b-0",
+      "category": "Housing",
+      "amount": 165000,
+      "month": "2026-10",
+      "fixed": true
+    },
+    {
+      "id": "b-1",
+      "category": "Groceries",
+      "amount": 45000,
+      "month": "2026-10",
+      "fixed": false
+    },
+    {
+      "id": "b-2",
+      "category": "Dining",
+      "amount": 18000,
+      "month": "2026-10",
+      "fixed": false
+    },
+    {
+      "id": "b-3",
+      "category": "Shopping",
+      "amount": 32000,
+      "month": "2026-10",
+      "fixed": false
+    },
+    {
+      "id": "b-4",
+      "category": "Utilities",
+      "amount": 25000,
+      "month": "2026-10",
+      "fixed": true
+    },
+    {
+      "id": "b-5",
+      "category": "Transport",
+      "amount": 10000,
+      "month": "2026-10",
+      "fixed": false
+    },
+    {
+      "id": "b-6",
+      "category": "Subscriptions",
+      "amount": 3000,
+      "month": "2026-10",
+      "fixed": true
+    },
+    {
+      "id": "b-7",
+      "category": "Health",
+      "amount": 8000,
+      "month": "2026-10",
+      "fixed": false
+    },
+    {
+      "id": "b-8",
+      "category": "Lifestyle",
+      "amount": 10000,
+      "month": "2026-10",
+      "fixed": false
+    }
+  ],
+  "holdings": [
+    {
+      "id": "h-0",
+      "name": "Total US Stock Market",
+      "ticker": "VTI",
+      "asset_class": "US equities",
+      "shares": 90.0,
+      "purchase_price": 24000,
+      "current_price": 27145,
+      "purchased": "2026-05-01",
+      "valued": "2026-10-28"
+    },
+    {
+      "id": "h-1",
+      "name": "Total International Stock",
+      "ticker": "VXUS",
+      "asset_class": "International equities",
+      "shares": 150.0,
+      "purchase_price": 5800,
+      "current_price": 6340,
+      "purchased": "2026-05-01",
+      "valued": "2026-10-28"
+    },
+    {
+      "id": "h-2",
+      "name": "Total Bond Market",
+      "ticker": "BND",
+      "asset_class": "Bonds",
+      "shares": 100.0,
+      "purchase_price": 7100,
+      "current_price": 7342,
+      "purchased": "2026-05-01",
+      "valued": "2026-10-28"
+    },
+    {
+      "id": "h-3",
+      "name": "Real Estate ETF",
+      "ticker": "VNQ",
+      "asset_class": "Real estate",
+      "shares": 50.0,
+      "purchase_price": 8200,
+      "current_price": 8920,
+      "purchased": "2026-05-01",
+      "valued": "2026-10-28"
+    }
+  ],
+  "prices": [
+    {
+      "id": "price-0-VTI",
+      "ticker": "VTI",
+      "date": "2026-05-28",
+      "price": 25516
+    },
+    {
+      "id": "price-1-VTI",
+      "ticker": "VTI",
+      "date": "2026-06-28",
+      "price": 25842
+    },
+    {
+      "id": "price-2-VTI",
+      "ticker": "VTI",
+      "date": "2026-07-28",
+      "price": 26168
+    },
+    {
+      "id": "price-3-VTI",
+      "ticker": "VTI",
+      "date": "2026-08-28",
+      "price": 26494
+    },
+    {
+      "id": "price-4-VTI",
+      "ticker": "VTI",
+      "date": "2026-09-28",
+      "price": 26819
+    },
+    {
+      "id": "price-5-VTI",
+      "ticker": "VTI",
+      "date": "2026-10-28",
+      "price": 27145
+    },
+    {
+      "id": "price-0-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-05-28",
+      "price": 5960
+    },
+    {
+      "id": "price-1-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-06-28",
+      "price": 6036
+    },
+    {
+      "id": "price-2-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-07-28",
+      "price": 6112
+    },
+    {
+      "id": "price-3-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-08-28",
+      "price": 6188
+    },
+    {
+      "id": "price-4-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-09-28",
+      "price": 6264
+    },
+    {
+      "id": "price-5-VXUS",
+      "ticker": "VXUS",
+      "date": "2026-10-28",
+      "price": 6340
+    },
+    {
+      "id": "price-0-BND",
+      "ticker": "BND",
+      "date": "2026-05-28",
+      "price": 6901
+    },
+    {
+      "id": "price-1-BND",
+      "ticker": "BND",
+      "date": "2026-06-28",
+      "price": 6990
+    },
+    {
+      "id": "price-2-BND",
+      "ticker": "BND",
+      "date": "2026-07-28",
+      "price": 7078
+    },
+    {
+      "id": "price-3-BND",
+      "ticker": "BND",
+      "date": "2026-08-28",
+      "price": 7166
+    },
+    {
+      "id": "price-4-BND",
+      "ticker": "BND",
+      "date": "2026-09-28",
+      "price": 7254
+    },
+    {
+      "id": "price-5-BND",
+      "ticker": "BND",
+      "date": "2026-10-28",
+      "price": 7342
+    },
+    {
+      "id": "price-0-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-05-28",
+      "price": 8385
+    },
+    {
+      "id": "price-1-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-06-28",
+      "price": 8492
+    },
+    {
+      "id": "price-2-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-07-28",
+      "price": 8599
+    },
+    {
+      "id": "price-3-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-08-28",
+      "price": 8706
+    },
+    {
+      "id": "price-4-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-09-28",
+      "price": 8813
+    },
+    {
+      "id": "price-5-VNQ",
+      "ticker": "VNQ",
+      "date": "2026-10-28",
+      "price": 8920
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "checkpoint-0",
+      "date": "2026-05-28",
+      "value": 4109569,
+      "flow": 0
+    },
+    {
+      "id": "checkpoint-1",
+      "date": "2026-06-28",
+      "value": 4200665,
+      "flow": 50000
+    },
+    {
+      "id": "checkpoint-2",
+      "date": "2026-07-28",
+      "value": 4292672,
+      "flow": 50000
+    },
+    {
+      "id": "checkpoint-3",
+      "date": "2026-08-28",
+      "value": 4385599,
+      "flow": 50000
+    },
+    {
+      "id": "checkpoint-4",
+      "date": "2026-09-28",
+      "value": 4479455,
+      "flow": 50000
+    },
+    {
+      "id": "checkpoint-5",
+      "date": "2026-10-28",
+      "value": 4574250,
+      "flow": 50000
+    }
+  ],
+  "goals": [
+    {
+      "id": "g1",
+      "name": "Emergency fund",
+      "target": 3000000,
+      "saved": 2100000,
+      "monthly": 80000,
+      "deadline": "2027-10-28",
+      "color": "mint"
+    },
+    {
+      "id": "g2",
+      "name": "A place of my own",
+      "target": 6000000,
+      "saved": 1540000,
+      "monthly": 60000,
+      "deadline": "2030-10-27",
+      "color": "blue"
+    },
+    {
+      "id": "g3",
+      "name": "Japan, here I come",
+      "target": 500000,
+      "saved": 325000,
+      "monthly": 25000,
+      "deadline": "2027-06-25",
+      "color": "violet"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "title": "My investing principles",
+      "body": "Keep costs low. Diversify across markets. Invest consistently.\n\nBefore buying: write down the time horizon, the risk I can tolerate, and why the asset belongs in my plan. Revisit the plan before reacting to headlines.",
+      "tag": "Investment thesis",
+      "updated": "2026-10-28",
+      "pinned": true
+    },
+    {
+      "id": "n2",
+      "title": "Monthly money review",
+      "body": "1. Review unusual transactions.\n2. Check category budgets.\n3. Update manually supplied investment prices.\n4. Revisit goal contributions.\n5. Export a backup.",
+      "tag": "Checklist",
+      "updated": "2026-10-28",
+      "pinned": false
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "contains": "payroll",
+      "category": "Salary",
+      "kind": "income"
+    },
+    {
+      "id": "r2",
+      "contains": "card payment",
+      "category": "Transfer",
+      "kind": "transfer"
+    },
+    {
+      "id": "r3",
+      "contains": "whole foods",
+      "category": "Groceries",
+      "kind": "expense"
+    }
+  ],
+  "scenarios": [],
+  "imports": []
+}
